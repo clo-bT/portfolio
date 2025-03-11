@@ -1,9 +1,9 @@
 // src/router.tsx
 import { Routes, Route } from 'react-router-dom';
 import Main from './pages/mainPage';
-import Experience from './pages/experience';
-import Projects from './pages/projects';
-import Qualifications from './pages/qualifications';
+import Experience from './pages/experiencePage';
+import Projects from './pages/projectsPage';
+import Qualifications from './pages/qualificationsPage';
 import MyPage from './pages/myPage';
 
 const Router = () => {

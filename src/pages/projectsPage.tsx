@@ -1,6 +1,14 @@
+import styled from "styled-components";
 
-const projects = () => {
-  return <h1>projects Page</h1>;
+
+const ProjectsContainer = styled.div``;
+
+const Projects = () => {
+  return (
+    <ProjectsContainer>
+
+    </ProjectsContainer>
+  )
 };
 
-export default projects;
+export default Projects;

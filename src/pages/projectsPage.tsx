@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Gombang from "../components/gombang/gombang";
 import Yeondubu from "../components/yeondubu";
 import Pnj from "../components/pnj";
+import Header from "../components/header";
 
 const ProjectsContainer = styled.div`
   display: flex;
@@ -41,6 +42,7 @@ const ProjectsContent = styled.div`
 const Projects = () => {
   return (
     <ProjectsContainer>
+      <Header />
       <GombangWrapper>
         <GombangContent>
           <ProjectsName>GOMBANG 곰방</ProjectsName>

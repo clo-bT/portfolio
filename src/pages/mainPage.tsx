@@ -1,6 +1,12 @@
+import styled from "styled-components";
 
-const mainPage = () => {
-  return <h1>mainPage Page</h1>;
+const MainPageContainer = styled.div``;
+const MainPage = () => {
+  return (
+    <MainPageContainer>
+      
+    </MainPageContainer>
+  )
 };
 
-export default mainPage;
+export default MainPage;

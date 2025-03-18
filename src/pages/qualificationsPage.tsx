@@ -1,6 +1,14 @@
+import styled from "styled-components";
+import Header from "../components/header";
 
-const qualifications = () => {
-  return <h1>qualifications Page</h1>;
+const QualificationsContainer = styled.div``;
+const Qualifications = () => {
+  return (
+    <QualificationsContainer>
+      <Header />
+      
+    </QualificationsContainer>
+  )
 };
 
-export default qualifications;
+export default Qualifications;
